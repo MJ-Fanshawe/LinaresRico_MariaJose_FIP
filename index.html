@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABC Books</title>
+    <link rel="icon" href="./img/icon.svg" type="image/x-icon">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+
+<body>
+    <h1 class="hidden">Welcome to ABC Books!</h1>
+    <div id="container">
+        <header id="main-header" class="grid-con">
+            <h2 class="hidden">Main Navigation</h2>
+
+                <div id="main-logo">
+                    <a title="Main Logo" href="./index.html"><img src="./img/main-logo.svg" alt="Main Logo"></a>
+                </div>
+
+                <div id="search-bar" class="search_wrap">
+                    <div class="search_box">
+                        <input type="text" class="input" placeholder="Enter keyword, author, title or ISBN">
+                            <div class="btn btn_common">
+                                <i class="fas fa-search"></i>
+                            </div>
+                    </div>
+                </div>
+
+                <nav id="main-nav">
+                    <ul>
+                        <li id="gallery-btn">
+                            <a class="account-menu-header" href="./gallery.html">
+                                <div class="account-menu-element">
+                                    <img class="icon-header" alt="Gallery Icon" src="./img/icons/gallery-icon.png">
+                                        <div class="menu-style">Gallery </div>
+                                </div>
+                            </a>
+                        </li>
+                                 
+                        <li id="wishlist-btn">
+                            <a href="./index.html">
+                                <div class="account-menu-element">
+                                    <img class="icon-header" alt="Wishlist Icon" src="./img/icons/heart.png">
+                                    <div class="menu-style">Wishlist</div>
+                                </div>
+                            </a>
+                            
+                        </li>
+
+                        <li id="cart-btn">
+                            <a href="./index.html">
+                                <div>
+                                    <img id="cart-icon" alt="Cart Icon" src="./img/icons/shopping-cart.png">
+                                    <div class="menu-style">Cart</div>
+                                </div>
+                            </a>
+                            
+                        </li>
+
+                        <li id="sign-btn">
+                            <a href="./index.html"></a>
+                            <div>
+                                <img id="icon-header" alt="Profile Icon" src="./img/icons/log-in.png">
+                                <div class="menu-style">Sign In / Join</div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </nav>
+        </header> 
+
+        <main>
+            <section id="hero" class="grid-con">
+                <h2>BOOKS</h2><h2> FROM A - TO - Z </h2> 
+                <article id="header-1" class="box-color">
+                    <h3 class="hidden">Header</h3>
+                <img class="hover07" src="./img/header-1.png" alt="image">
+                </article>
+                <img src="./img/header-2.png" alt="image" id="hero-image">
+                <img src="./img/header-3.png" alt="image" id="purple-banner">
+            </section>
+
+            <section id="products" class="grid-con">
+                <h2>Best</h2><h2>Sellers</h2>
+
+                <article class="product-box1" id="product1">
+                    <h3 class="hidden">Product1</h3>
+                    <img src="./img/cover-books/percy-jackson.jpg" alt="image">
+                    <aside>
+                        <p class="product-title">The Sea of Monsters </p> <br>
+                            <p class="product-sub">Percy Jackson recounts the story of Thalia Grace: Pursued by monsters on their way to Camp Half-Blood, a young Thalia sacrificed herself to save her friends.
+                        </p>
+                    </aside>
+                    <div class="button glow-button">Read More</div>
+                </article>
+
+                <article class="product-box2" id="product2">
+                    <h3 class="hidden">Article 2</h3>
+                    <img src="./img/cover-books/the-tools.jpg" alt="image">
+                    <aside>
+                        <p class="product-title">The Tools </p> <br>
+                            <p class="product-sub">Now in paperback, a groundbreaking book about personal growth that presents a uniquely effective set of four tools that bring about dynamic change in the present.
+                        </p>
+                    </aside>
+                    <div class="button glow-button">Read More</div>
+                </article>
+            </section>
+
+
+            <section id="popular-con" class="grid-con">
+                <h2>Popular</h2><h2>Categories</h2>
+
+                <article class="grid-con" id="popular-bg">
+                    <h3 class="hidden">Text Popular Categories</h3>
+                    <aside>
+                        <p>The world of literature abounds with different genres. Broadly speaking, the fiction world is divided into two segments: literary fiction and genre fiction. Literary fiction typically describes the kinds of books that are assigned in high school and college English classes, that are character driven and describe some aspect of the human condition. <br><br>
+                        These are some of the most popular categories at the moment:</p>
+                    </aside>
+                
+                    <aside id="romance-categ" class="grid-con">
+                        <img src='./img/cover-books/romance-header.png' alt="Romance Book Cover">
+                    </aside>
+
+                    <aside id="help-categ" class="grid-con">
+                        <img src='./img/cover-books/help-header.png' alt="Self-Help Book Cover">
+                    </aside>
+
+                    <aside id="thrillers-categ" class="grid-con">
+                        <img src='./img/cover-books/thriller-header.png' alt="Thriller Book Cover">
+                    </aside>
+
+                    <aside id="fiction-categ" class="grid-con">
+                        <img src='./img/cover-books/science-header.png' alt="Fiction Book Cover">
+                    </aside>
+
+                    <div class="button glow-button">Shop Now</div>
+
+                </article>
+            </section>
+            
+            <section id="contact-con" class="grid-con">
+                <h2 class="hidden">Contact Form</h2>
+
+                    <article id="contact-form-address-left">
+                        <h2>Contact Us<br>Anywhere, Anytime.</h2>
+                            <aside>
+                                <p>Please kindly complete this form and we will comunicate with you as soon as possible.<br>
+                                    Or if you prefer, use our social media to communicate with us.
+                                </p>
+                                <img id="social-media" src="./img/social-media.svg" alt="Social Media Icons">
+                            </aside>
+                    </article>
+
+                    <article id="contact-form-fields-right"> 
+                            <h2 class="hidden">Form</h2>
+                            <h3 class="hidden">Image Form</h3>
+                            <img id="img-form" src="./img/icons/airplane.png" alt="Paper Airplane ">
+
+
+                        <div id="form">
+                            <h2 class="hidden">Form</h2>
+                            <form action="email.php" method="POST" enctype="text/plain">
+                                <input name="fullName" type="text" placeholder="Full Name*">
+                                <input name="contactInfo" type="text" required placeholder="Email *">
+                                <input name="contactInfo" type="text" required placeholder="Contact Number*">
+                                <textarea name="msg" placeholder="Message*"></textarea>
+                                <a href="https://superdevresources.com/css-button-glow-effect//" class="button glow-button" target="_blank">Submit</a>
+                            </form>
+                        </div>
+                    </article>
+            </section>
+        </main>
+
+
+        <footer class="grid-con">
+            <div id="footer-logo">
+                <a title="Logo" href="./index.html"><img src="./img/main-logo.svg" alt="Footer Logo">
+                </a>
+            </div>
+
+                <nav id="footer-nav">
+                    <ul class="text-wrap">
+                        <li>
+                            <a class="account-menu-header" href="./gallery.html">
+                                    <div class="footer-text">Gallery </div>
+                            </a>
+                        </li>
+                                 
+                        <li>
+                            <a href="./index.html">
+                                <div class="account-menu-element">
+                                    <div class="footer-text">Wishlist</div>
+                                </div>
+                            </a>
+                            
+                        </li>
+
+                        <li>
+                            <a href="./index.html">
+                                <div>
+                                    <div class="footer-text">Cart</div>
+                                </div>
+                            </a>
+                            
+                        </li>
+
+                        <li>
+                            <a href="./index.html">
+                            <div>
+                                <div class="footer-text">Profile</div>
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            <div id="newsletter-text">
+                <div id="nl-slogan">Books from A-to-Z</div>
+                <div id="nl-statement">Get the LAST OFFERS right in your inbox</div>
+            </div>
+
+            <div id="newsletter-bar">
+                <div class="search_wrap search_wrap_3">
+                    <div class="search_box">
+                        <input type="text" class="input" placeholder="Type your email...">
+                        <div class="btn btn_common">
+                            <img id="heart-footer" src="./img/icons/heart.svg" alt="Send Icon Heart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer-payment">
+                <div id="credits">
+                    <img src="./img/icons/payment.webp" alt="Payment Methods">
+                </div>
+            </div>
+    </footer>
+     
+    </div>
+    
+</body>
+</html>
